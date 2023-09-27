@@ -1,0 +1,2872 @@
+[
+  {
+    "lottery_game": [
+      {
+        "id": "7f5735a3-08b8-4b9d-8430-901ec6d79736",
+        "name": "Mega Millions",
+        "description": "Exciting lottery game with huge jackpots",
+        "jackpot": 26510,
+        "draw_date": "2023-09-26T12:29:55.263Z",
+        "draw_time": "2023-09-27T05:07:05.380Z",
+        "status": "Active",
+        "created_at": "2023-09-26T17:13:32.974Z",
+        "updated_at": "2023-09-26T19:32:11.335Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "189864cc-8afa-46a9-abe0-05e75ee014c5",
+        "name": "Powerball",
+        "description": "Popular game with multiple prize tiers",
+        "jackpot": 14355,
+        "draw_date": "2023-09-26T18:50:54.493Z",
+        "draw_time": "2023-09-27T00:51:36.238Z",
+        "status": "Inactive",
+        "created_at": "2023-09-27T06:52:21.031Z",
+        "updated_at": "2023-09-26T17:51:44.357Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "f4f0bf67-56bc-4773-8dca-c58736decbf8",
+        "name": "EuroMillions",
+        "description": "International lottery with massive prizes",
+        "jackpot": 48052,
+        "draw_date": "2023-09-26T14:01:41.659Z",
+        "draw_time": "2023-09-27T04:57:59.980Z",
+        "status": "Coming Soon",
+        "created_at": "2023-09-26T13:24:00.649Z",
+        "updated_at": "2023-09-27T03:31:34.568Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "7e060c9b-4cad-42c9-86b6-0b717cc798e9",
+        "name": "Lotto Max",
+        "description": "Canadian lottery with great odds",
+        "jackpot": 19991,
+        "draw_date": "2023-09-27T02:00:43.219Z",
+        "draw_time": "2023-09-27T05:58:43.068Z",
+        "status": "Closed",
+        "created_at": "2023-09-27T08:38:10.540Z",
+        "updated_at": "2023-09-26T11:00:08.470Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "c3fc1778-d3d4-4dfd-9716-3e62c9cf71f1",
+        "name": "SuperEnalotto",
+        "description": "Italian lottery with a long history",
+        "jackpot": 34819,
+        "draw_date": "2023-09-27T05:23:07.614Z",
+        "draw_time": "2023-09-26T11:17:18.841Z",
+        "status": "Suspended",
+        "created_at": "2023-09-27T09:59:14.379Z",
+        "updated_at": "2023-09-27T05:14:53.766Z",
+        "operator_id": "main_entity_pk"
+      }
+    ],
+    "game_administrator": [
+      {
+        "id": "6d5a18cf-507e-4db7-9192-93b8fe4a9982",
+        "first_name": "Admin1",
+        "last_name": "Smith",
+        "hire_date": "2023-09-26T13:35:52.320Z",
+        "role": "Administrator",
+        "status": "Active",
+        "created_at": "2023-09-27T04:19:02.854Z",
+        "updated_at": "2023-09-27T02:51:16.556Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e9c3458-d5ec-4668-ae3e-8d65325aea9c",
+        "first_name": "Admin2",
+        "last_name": "Johnson",
+        "hire_date": "2023-09-26T12:34:05.267Z",
+        "role": "Manager",
+        "status": "Inactive",
+        "created_at": "2023-09-26T11:12:09.004Z",
+        "updated_at": "2023-09-26T17:11:04.392Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85ebba31-5512-4a9c-8ea8-9cdbd1e8f50f",
+        "first_name": "Admin3",
+        "last_name": "Brown",
+        "hire_date": "2023-09-26T21:51:01.761Z",
+        "role": "Supervisor",
+        "status": "Pending",
+        "created_at": "2023-09-26T13:35:53.913Z",
+        "updated_at": "2023-09-26T12:45:32.851Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a087baed-bff9-4421-a9d0-54a5253bb915",
+        "first_name": "Admin4",
+        "last_name": "Jones",
+        "hire_date": "2023-09-27T05:09:40.899Z",
+        "role": "Coordinator",
+        "status": "Suspended",
+        "created_at": "2023-09-26T15:22:44.420Z",
+        "updated_at": "2023-09-26T19:04:30.614Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5694ef67-b622-48fe-8d1f-d288a60485f4",
+        "first_name": "Admin5",
+        "last_name": "Davis",
+        "hire_date": "2023-09-26T19:25:00.694Z",
+        "role": "Analyst",
+        "status": "Blocked",
+        "created_at": "2023-09-27T05:51:56.708Z",
+        "updated_at": "2023-09-27T07:50:40.093Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support_representative": [
+      {
+        "id": "9f48f849-f7cb-4ac8-8f37-a124005c3b9f",
+        "first_name": "Support1",
+        "last_name": "Smith",
+        "hire_date": "2023-09-27T08:58:30.537Z",
+        "department": "Technical Support",
+        "position": "Representative",
+        "created_at": "2023-09-27T05:20:00.368Z",
+        "updated_at": "2023-09-26T17:25:45.806Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cdcb75c5-10da-42db-b387-a4adf425593c",
+        "first_name": "Support2",
+        "last_name": "Johnson",
+        "hire_date": "2023-09-27T04:49:39.738Z",
+        "department": "Billing Support",
+        "position": "Specialist",
+        "created_at": "2023-09-27T03:20:03.596Z",
+        "updated_at": "2023-09-27T05:42:16.232Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8699baf4-13dd-486b-a533-207ce29f9916",
+        "first_name": "Support3",
+        "last_name": "Brown",
+        "hire_date": "2023-09-26T14:41:29.592Z",
+        "department": "Sales Support",
+        "position": "Coordinator",
+        "created_at": "2023-09-26T13:57:46.320Z",
+        "updated_at": "2023-09-26T22:52:52.125Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a95c7bc3-3558-454d-9fe0-4ec540c84387",
+        "first_name": "Support4",
+        "last_name": "Jones",
+        "hire_date": "2023-09-27T00:35:28.030Z",
+        "department": "Customer Service",
+        "position": "Manager",
+        "created_at": "2023-09-26T16:26:48.059Z",
+        "updated_at": "2023-09-26T22:02:26.651Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c73ea8e2-df6f-450e-b2b1-5ee7849c9c8d",
+        "first_name": "Support5",
+        "last_name": "Davis",
+        "hire_date": "2023-09-27T03:18:58.612Z",
+        "department": "Product Support",
+        "position": "Supervisor",
+        "created_at": "2023-09-27T00:05:56.358Z",
+        "updated_at": "2023-09-26T23:27:34.517Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "d1f99a80-479b-4d82-8566-71ef2b188b6b",
+        "first_name": "John",
+        "last_name": "Doe",
+        "date_of_birth": "2023-09-27T02:49:00.291Z",
+        "address": "123 Main St",
+        "city": "New York",
+        "country": "United States",
+        "created_at": "2023-09-26T14:08:52.760Z",
+        "updated_at": "2023-09-26T16:15:48.791Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b2d0e31-caa3-4776-955c-e013105a9d5b",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "date_of_birth": "2023-09-27T01:13:23.512Z",
+        "address": "456 Elm St",
+        "city": "London",
+        "country": "United Kingdom",
+        "created_at": "2023-09-26T20:38:01.781Z",
+        "updated_at": "2023-09-26T16:08:54.885Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32246429-c2e8-4c96-94f1-a7ad7a43c356",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "date_of_birth": "2023-09-26T16:41:27.247Z",
+        "address": "789 Oak St",
+        "city": "Tokyo",
+        "country": "Japan",
+        "created_at": "2023-09-26T20:23:05.061Z",
+        "updated_at": "2023-09-26T11:39:14.947Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e1d412c-89f9-493b-a56e-e53dc3524b26",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "date_of_birth": "2023-09-26T22:28:30.135Z",
+        "address": "321 Pine St",
+        "city": "Sydney",
+        "country": "Australia",
+        "created_at": "2023-09-27T00:27:17.527Z",
+        "updated_at": "2023-09-26T14:30:19.200Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e7215c8-d90b-4d5a-92d0-c41b5f385372",
+        "first_name": "Robert",
+        "last_name": "Johnson",
+        "date_of_birth": "2023-09-26T16:05:01.083Z",
+        "address": "654 Maple St",
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "created_at": "2023-09-26T18:45:25.897Z",
+        "updated_at": "2023-09-26T16:04:04.127Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "65b929a0-25e2-4608-aa01-889239bb29cc",
+        "email": "Mekhi89@roq.tech",
+        "firstName": "Hallie",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/655.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8df35352-03be-41e4-8339-3543144a93eb",
+        "email": "Aliya_Thompson@roq.tech",
+        "firstName": "Karlie",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38476210",
+        "tenantId": null
+      },
+      {
+        "reference": "e3b6c9bb-05d8-4f2d-89e6-f4926c3de971",
+        "email": "Dawn_Renner98@roq.tech",
+        "firstName": "Germaine",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/843.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "88bd778f-6f8e-4ed3-88c7-896c7e2b3c2e",
+        "email": "April.Bradtke@roq.tech",
+        "firstName": "Bernadine",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76489068",
+        "tenantId": null
+      },
+      {
+        "reference": "5ee86c56-4126-432c-84f0-11e70446d28a",
+        "email": "Shakira31@roq.tech",
+        "firstName": "Nathaniel",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/22.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "lottery_game": [
+      {
+        "id": "1d46e6ed-83fe-4b91-a061-f4484ca65111",
+        "name": "Mega Millions",
+        "description": "The biggest lottery game in the US",
+        "jackpot": 62315,
+        "draw_date": "2023-09-26T12:37:06.398Z",
+        "draw_time": "2023-09-26T12:52:13.134Z",
+        "status": "Active",
+        "created_at": "2023-09-27T05:06:24.543Z",
+        "updated_at": "2023-09-27T02:12:04.264Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "f0d83d92-1b4e-4ff7-8fdd-cf020b6a68d3",
+        "name": "Powerball",
+        "description": "Offers huge jackpots every week",
+        "jackpot": 3351,
+        "draw_date": "2023-09-27T00:42:58.287Z",
+        "draw_time": "2023-09-26T15:36:27.466Z",
+        "status": "Inactive",
+        "created_at": "2023-09-26T13:09:21.624Z",
+        "updated_at": "2023-09-26T20:44:52.405Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "b7df809d-ec4a-4bd4-a3f9-dca096264a53",
+        "name": "EuroMillions",
+        "description": "Popular European lottery game",
+        "jackpot": 47747,
+        "draw_date": "2023-09-27T04:56:38.536Z",
+        "draw_time": "2023-09-26T20:35:56.665Z",
+        "status": "Upcoming",
+        "created_at": "2023-09-27T04:56:44.438Z",
+        "updated_at": "2023-09-26T15:06:40.453Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "e41a1c90-691a-4b3b-9ff8-41bd47774896",
+        "name": "SuperEnalotto",
+        "description": "Italy's national lottery game",
+        "jackpot": 95541,
+        "draw_date": "2023-09-26T22:09:38.169Z",
+        "draw_time": "2023-09-27T04:26:28.256Z",
+        "status": "Suspended",
+        "created_at": "2023-09-27T05:33:28.462Z",
+        "updated_at": "2023-09-27T04:32:37.957Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "40660264-2e23-4ba0-a1ec-a510765ee6db",
+        "name": "Lotto Max",
+        "description": "Canada's most popular lottery game",
+        "jackpot": 70701,
+        "draw_date": "2023-09-27T05:42:28.399Z",
+        "draw_time": "2023-09-27T03:00:18.283Z",
+        "status": "Completed",
+        "created_at": "2023-09-27T10:22:16.038Z",
+        "updated_at": "2023-09-27T05:59:36.950Z",
+        "operator_id": "main_entity_pk"
+      }
+    ],
+    "game_administrator": [
+      {
+        "id": "3dbe79b4-509e-46e9-9b34-746f479e5a13",
+        "first_name": "Admin 1",
+        "last_name": "Smith",
+        "hire_date": "2023-09-27T10:24:30.843Z",
+        "role": "Administrator",
+        "status": "Active",
+        "created_at": "2023-09-26T14:14:48.314Z",
+        "updated_at": "2023-09-27T09:12:15.156Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bae01264-f310-43a2-ae7f-4738be4e99ec",
+        "first_name": "Admin 2",
+        "last_name": "Johnson",
+        "hire_date": "2023-09-26T16:53:04.502Z",
+        "role": "Manager",
+        "status": "Inactive",
+        "created_at": "2023-09-27T07:07:24.800Z",
+        "updated_at": "2023-09-27T08:49:36.811Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fca96101-d022-44a2-9ee0-b8ad83060ef8",
+        "first_name": "Admin 3",
+        "last_name": "Williams",
+        "hire_date": "2023-09-27T10:32:58.048Z",
+        "role": "Supervisor",
+        "status": "Pending",
+        "created_at": "2023-09-26T15:29:21.693Z",
+        "updated_at": "2023-09-27T03:56:28.867Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7daea9b9-228b-4263-9349-dbfeb5cc4ff4",
+        "first_name": "Admin 4",
+        "last_name": "Jones",
+        "hire_date": "2023-09-26T12:08:31.293Z",
+        "role": "Coordinator",
+        "status": "Suspended",
+        "created_at": "2023-09-26T15:19:16.680Z",
+        "updated_at": "2023-09-26T21:22:00.029Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d966c8cd-527f-4abf-a019-7f7576b69b95",
+        "first_name": "Admin 5",
+        "last_name": "Brown",
+        "hire_date": "2023-09-26T23:05:08.416Z",
+        "role": "Analyst",
+        "status": "Blocked",
+        "created_at": "2023-09-27T02:43:32.570Z",
+        "updated_at": "2023-09-27T00:56:47.184Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support_representative": [
+      {
+        "id": "89246763-5812-4461-8105-bdc2e261651b",
+        "first_name": "Support 1",
+        "last_name": "Taylor",
+        "hire_date": "2023-09-27T01:59:25.676Z",
+        "department": "Technical Support",
+        "position": "Representative",
+        "created_at": "2023-09-27T08:43:39.399Z",
+        "updated_at": "2023-09-27T09:35:45.513Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0878eaee-1992-4f67-a761-6792bcb2e50b",
+        "first_name": "Support 2",
+        "last_name": "Clark",
+        "hire_date": "2023-09-26T17:31:29.767Z",
+        "department": "Customer Service",
+        "position": "Specialist",
+        "created_at": "2023-09-26T23:49:20.035Z",
+        "updated_at": "2023-09-26T12:30:05.252Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8e029ae-c35b-49b5-989d-204278a8b816",
+        "first_name": "Support 3",
+        "last_name": "Walker",
+        "hire_date": "2023-09-26T13:46:54.839Z",
+        "department": "Billing",
+        "position": "Manager",
+        "created_at": "2023-09-26T23:19:08.711Z",
+        "updated_at": "2023-09-26T11:38:23.666Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "596c8fcc-52f1-425a-b161-58aa4cfea3a3",
+        "first_name": "Support 4",
+        "last_name": "Lewis",
+        "hire_date": "2023-09-26T12:33:31.102Z",
+        "department": "Sales",
+        "position": "Supervisor",
+        "created_at": "2023-09-26T16:06:57.115Z",
+        "updated_at": "2023-09-27T10:17:07.965Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d5932bc-ddcd-49a6-9594-34cefb11ffd6",
+        "first_name": "Support 5",
+        "last_name": "Hall",
+        "hire_date": "2023-09-26T23:09:13.310Z",
+        "department": "Complaints",
+        "position": "Coordinator",
+        "created_at": "2023-09-27T02:43:36.423Z",
+        "updated_at": "2023-09-27T10:22:58.309Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "24102616-638a-4f37-b34d-36e0ba6f608f",
+        "first_name": "John",
+        "last_name": "Doe",
+        "date_of_birth": "2023-09-26T17:55:00.616Z",
+        "address": "123 Main St",
+        "city": "New York",
+        "country": "USA",
+        "created_at": "2023-09-27T09:48:35.486Z",
+        "updated_at": "2023-09-26T18:39:32.284Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1889ea02-d208-4dde-b4a9-43dee388804e",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "date_of_birth": "2023-09-26T19:11:33.265Z",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "country": "Canada",
+        "created_at": "2023-09-27T03:01:26.157Z",
+        "updated_at": "2023-09-27T10:28:12.281Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41d06203-3a88-41fb-b64e-0266b9d894bd",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "date_of_birth": "2023-09-26T10:59:40.529Z",
+        "address": "789 Oak St",
+        "city": "London",
+        "country": "UK",
+        "created_at": "2023-09-26T17:38:18.953Z",
+        "updated_at": "2023-09-26T20:09:05.344Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "baa1ec8f-e4cb-4dfe-91df-58f97d7561a4",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "date_of_birth": "2023-09-26T14:42:17.400Z",
+        "address": "321 Pine St",
+        "city": "Paris",
+        "country": "France",
+        "created_at": "2023-09-27T05:39:25.176Z",
+        "updated_at": "2023-09-27T00:48:39.360Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9fde8c5-223c-4c78-b8b3-d7fe5d147351",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "date_of_birth": "2023-09-27T08:54:46.135Z",
+        "address": "654 Maple St",
+        "city": "Sydney",
+        "country": "Australia",
+        "created_at": "2023-09-26T18:44:57.464Z",
+        "updated_at": "2023-09-26T14:34:41.895Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e34011f5-9a0b-4365-a7d2-e5f56f76e3f2",
+        "email": "Neoma.Streich-Dach75@roq.tech",
+        "firstName": "Abigale",
+        "lastName": "Kuhn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1175.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e1219b7b-ee7a-4a0c-819d-5d39dca2bf5d",
+        "email": "Desmond.Nolan@roq.tech",
+        "firstName": "Van",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62348339",
+        "tenantId": null
+      },
+      {
+        "reference": "f4365d46-7299-420e-a24f-bbe5a03aa4ae",
+        "email": "Winfield.Grady22@roq.tech",
+        "firstName": "Ella",
+        "lastName": "Lynch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/434.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6c075b38-6c66-43fa-b55c-e8e453e4471d",
+        "email": "Dominic.Little@roq.tech",
+        "firstName": "Sydni",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/893.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f13c7d45-27f4-4955-91d6-afd3c4150c2d",
+        "email": "Nasir_Kemmer92@roq.tech",
+        "firstName": "Yvette",
+        "lastName": "Daugherty",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/708.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "lottery_game": [
+      {
+        "id": "9da8aca8-5b5f-46c9-8161-48b3c08e556d",
+        "name": "Game 1",
+        "description": "A thrilling lottery game",
+        "jackpot": 56204,
+        "draw_date": "2023-09-26T16:02:56.464Z",
+        "draw_time": "2023-09-27T09:26:49.714Z",
+        "status": "Active",
+        "created_at": "2023-09-26T12:17:55.971Z",
+        "updated_at": "2023-09-26T23:00:25.862Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "f23841dc-ab82-4ae0-a34e-65b87b8277d5",
+        "name": "Game 2",
+        "description": "Win big with this game",
+        "jackpot": 5350,
+        "draw_date": "2023-09-26T17:00:09.483Z",
+        "draw_time": "2023-09-26T17:50:49.784Z",
+        "status": "Inactive",
+        "created_at": "2023-09-26T16:24:56.798Z",
+        "updated_at": "2023-09-26T10:49:40.809Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "b5d54975-758c-4797-8624-408118497289",
+        "name": "Game 3",
+        "description": "Exciting prizes await",
+        "jackpot": 51199,
+        "draw_date": "2023-09-27T02:52:09.353Z",
+        "draw_time": "2023-09-27T00:21:27.687Z",
+        "status": "Upcoming",
+        "created_at": "2023-09-26T11:41:35.363Z",
+        "updated_at": "2023-09-27T10:35:35.423Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "9df2d06e-f36e-4743-a107-94ab46c5a6b4",
+        "name": "Game 4",
+        "description": "Test your luck today",
+        "jackpot": 64006,
+        "draw_date": "2023-09-27T00:42:52.444Z",
+        "draw_time": "2023-09-27T09:44:46.783Z",
+        "status": "Paused",
+        "created_at": "2023-09-26T23:56:20.738Z",
+        "updated_at": "2023-09-26T11:43:59.305Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "5413f889-4fb1-40c7-8ca9-8fe8958e7a81",
+        "name": "Game 5",
+        "description": "Join the fun and play",
+        "jackpot": 42935,
+        "draw_date": "2023-09-26T11:33:24.202Z",
+        "draw_time": "2023-09-26T21:11:00.223Z",
+        "status": "Completed",
+        "created_at": "2023-09-26T11:09:10.056Z",
+        "updated_at": "2023-09-27T03:27:30.144Z",
+        "operator_id": "main_entity_pk"
+      }
+    ],
+    "game_administrator": [
+      {
+        "id": "b2681c51-ff1f-424f-ba22-744e0e3d366a",
+        "first_name": "Admin 1",
+        "last_name": "Smith",
+        "hire_date": "2023-09-26T17:56:04.642Z",
+        "role": "Administrator",
+        "status": "Active",
+        "created_at": "2023-09-27T09:53:34.398Z",
+        "updated_at": "2023-09-27T00:51:01.963Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92f16ed4-f77a-4240-a675-551d2dde5e5f",
+        "first_name": "Admin 2",
+        "last_name": "Johnson",
+        "hire_date": "2023-09-26T22:19:50.407Z",
+        "role": "Manager",
+        "status": "Inactive",
+        "created_at": "2023-09-27T00:39:27.489Z",
+        "updated_at": "2023-09-27T01:08:51.021Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83a74a53-4aca-4f0c-8b74-d6b91e28cb4c",
+        "first_name": "Admin 3",
+        "last_name": "Williams",
+        "hire_date": "2023-09-26T12:43:03.876Z",
+        "role": "Supervisor",
+        "status": "Pending",
+        "created_at": "2023-09-26T11:30:30.725Z",
+        "updated_at": "2023-09-27T02:33:02.802Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23e4eb2a-782e-4d0c-8dfb-ac300e708722",
+        "first_name": "Admin 4",
+        "last_name": "Brown",
+        "hire_date": "2023-09-27T06:40:29.302Z",
+        "role": "Coordinator",
+        "status": "Blocked",
+        "created_at": "2023-09-26T18:10:32.197Z",
+        "updated_at": "2023-09-27T04:58:39.150Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9450491-1662-4bde-a226-b192906b0861",
+        "first_name": "Admin 5",
+        "last_name": "Jones",
+        "hire_date": "2023-09-26T11:24:58.452Z",
+        "role": "Analyst",
+        "status": "Suspended",
+        "created_at": "2023-09-27T03:44:04.884Z",
+        "updated_at": "2023-09-26T11:27:34.877Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support_representative": [
+      {
+        "id": "95839e58-7835-4367-b601-2d02ce3c523c",
+        "first_name": "Representative 1",
+        "last_name": "Davis",
+        "hire_date": "2023-09-26T14:22:13.640Z",
+        "department": "Support",
+        "position": "Representative",
+        "created_at": "2023-09-27T08:13:16.401Z",
+        "updated_at": "2023-09-26T20:50:12.503Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac9e8001-765d-4fd5-94a5-ab466063dc55",
+        "first_name": "Representative 2",
+        "last_name": "Miller",
+        "hire_date": "2023-09-26T22:37:01.840Z",
+        "department": "Sales",
+        "position": "Specialist",
+        "created_at": "2023-09-26T15:52:14.673Z",
+        "updated_at": "2023-09-26T10:53:02.335Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2237ce7-4e8b-4d01-ad82-a910f797b6ca",
+        "first_name": "Representative 3",
+        "last_name": "Anderson",
+        "hire_date": "2023-09-26T21:53:32.824Z",
+        "department": "Billing",
+        "position": "Manager",
+        "created_at": "2023-09-27T07:29:06.290Z",
+        "updated_at": "2023-09-27T05:37:17.055Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "156670ac-4ee4-41f5-b182-5cbd44f8019e",
+        "first_name": "Representative 4",
+        "last_name": "Wilson",
+        "hire_date": "2023-09-26T15:08:49.421Z",
+        "department": "Technical",
+        "position": "Coordinator",
+        "created_at": "2023-09-26T20:21:45.155Z",
+        "updated_at": "2023-09-26T15:30:17.903Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e6cbe88-8508-45ff-8dcc-ef57ee574319",
+        "first_name": "Representative 5",
+        "last_name": "Taylor",
+        "hire_date": "2023-09-26T15:50:36.291Z",
+        "department": "Account",
+        "position": "Supervisor",
+        "created_at": "2023-09-27T01:27:00.046Z",
+        "updated_at": "2023-09-26T20:17:39.001Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "bae270ee-d711-412f-97c4-da6ce28c9b1a",
+        "first_name": "John",
+        "last_name": "Doe",
+        "date_of_birth": "2023-09-27T00:01:09.925Z",
+        "address": "123 Main St",
+        "city": "New York",
+        "country": "USA",
+        "created_at": "2023-09-27T08:10:36.327Z",
+        "updated_at": "2023-09-27T02:00:15.503Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10e2d6f3-10b2-4174-88c3-60102a91706c",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "date_of_birth": "2023-09-26T19:16:25.375Z",
+        "address": "456 Elm St",
+        "city": "London",
+        "country": "UK",
+        "created_at": "2023-09-26T11:10:39.871Z",
+        "updated_at": "2023-09-27T00:50:05.678Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c690c96-8fc9-491e-a137-79e699840f2f",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "date_of_birth": "2023-09-27T09:55:21.040Z",
+        "address": "789 Oak St",
+        "city": "Tokyo",
+        "country": "Japan",
+        "created_at": "2023-09-26T17:34:01.816Z",
+        "updated_at": "2023-09-26T23:18:14.216Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4841ee6b-dc89-4b38-ac81-07562f5e9899",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "date_of_birth": "2023-09-26T21:15:41.558Z",
+        "address": "321 Pine St",
+        "city": "Sydney",
+        "country": "Australia",
+        "created_at": "2023-09-26T17:43:23.368Z",
+        "updated_at": "2023-09-26T15:08:32.417Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d25cbbde-c54e-4488-8fcc-966ef2aee161",
+        "first_name": "Robert",
+        "last_name": "Wilson",
+        "date_of_birth": "2023-09-26T23:46:11.758Z",
+        "address": "654 Maple St",
+        "city": "Berlin",
+        "country": "Germany",
+        "created_at": "2023-09-26T20:57:38.568Z",
+        "updated_at": "2023-09-26T11:38:32.722Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6ccde6fc-7557-4c2b-8b2f-08a4a5e2c0d7",
+        "email": "Norma.Dibbert@roq.tech",
+        "firstName": "Roslyn",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/213.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b60100b9-81a4-4738-a796-358dba6a4f97",
+        "email": "Lyric.Lindgren@roq.tech",
+        "firstName": "Friedrich",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32984385",
+        "tenantId": null
+      },
+      {
+        "reference": "f635eaa3-a35b-473c-a499-9c5352cbc16a",
+        "email": "Jabari_Vandervort95@roq.tech",
+        "firstName": "Desiree",
+        "lastName": "Batz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26576979",
+        "tenantId": null
+      },
+      {
+        "reference": "c0e3ad9d-5811-4922-a84b-5ba6df9ef0ad",
+        "email": "Sam.Brown9@roq.tech",
+        "firstName": "Trevion",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1166.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fbeb3751-ee9f-4b7a-8152-5bad911f6236",
+        "email": "Federico.Stanton16@roq.tech",
+        "firstName": "Theron",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1000.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "lottery_game": [
+      {
+        "id": "95b972c4-dd36-4be9-8995-371fc97c6b36",
+        "name": "Powerball",
+        "description": "A popular lottery game with huge jackpots",
+        "jackpot": 80055,
+        "draw_date": "2023-09-27T04:05:52.278Z",
+        "draw_time": "2023-09-26T14:13:09.180Z",
+        "status": "Active",
+        "created_at": "2023-09-27T05:36:39.469Z",
+        "updated_at": "2023-09-27T04:33:37.973Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "70afffe9-7b9d-453c-b333-813ff369f228",
+        "name": "Mega Millions",
+        "description": "Offers exciting prizes and multiple winning tiers",
+        "jackpot": 85192,
+        "draw_date": "2023-09-26T11:39:33.300Z",
+        "draw_time": "2023-09-27T04:31:01.086Z",
+        "status": "Inactive",
+        "created_at": "2023-09-26T13:02:17.729Z",
+        "updated_at": "2023-09-27T00:38:46.584Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "d883ae68-762e-4b56-9f5f-21de805b2286",
+        "name": "EuroMillions",
+        "description": "Played across multiple countries",
+        "jackpot": 56884,
+        "draw_date": "2023-09-26T14:38:05.868Z",
+        "draw_time": "2023-09-26T16:45:24.443Z",
+        "status": "Upcoming",
+        "created_at": "2023-09-26T22:04:04.672Z",
+        "updated_at": "2023-09-26T16:36:50.561Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "800b9197-9a26-4df2-9148-25fc10563c0d",
+        "name": "Lotto 6/49",
+        "description": "Simple and easy to play",
+        "jackpot": 46900,
+        "draw_date": "2023-09-26T19:53:49.202Z",
+        "draw_time": "2023-09-26T17:46:35.745Z",
+        "status": "Suspended",
+        "created_at": "2023-09-27T09:35:19.267Z",
+        "updated_at": "2023-09-26T16:00:54.547Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "6ca32e7c-d593-40b2-b6de-6e464e650e7b",
+        "name": "SuperEnalotto",
+        "description": "Regular draws and high winning odds",
+        "jackpot": 48166,
+        "draw_date": "2023-09-26T21:09:55.931Z",
+        "draw_time": "2023-09-26T12:57:35.616Z",
+        "status": "Completed",
+        "created_at": "2023-09-26T17:26:21.937Z",
+        "updated_at": "2023-09-26T19:02:42.793Z",
+        "operator_id": "main_entity_pk"
+      }
+    ],
+    "game_administrator": [
+      {
+        "id": "6e878919-5937-497f-a452-06b9a3b7e122",
+        "first_name": "Admin 1",
+        "last_name": "Smith",
+        "hire_date": "2023-09-26T20:30:14.393Z",
+        "role": "Administrator",
+        "status": "Active",
+        "created_at": "2023-09-26T13:33:34.925Z",
+        "updated_at": "2023-09-27T10:32:35.446Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5046191-0cc6-4a3d-bbda-286c967a67ce",
+        "first_name": "Admin 2",
+        "last_name": "Johnson",
+        "hire_date": "2023-09-27T00:30:11.451Z",
+        "role": "Manager",
+        "status": "Inactive",
+        "created_at": "2023-09-26T12:55:16.207Z",
+        "updated_at": "2023-09-26T13:01:06.924Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb57e6d3-68ad-4191-9350-a110cc38db85",
+        "first_name": "Admin 3",
+        "last_name": "Williams",
+        "hire_date": "2023-09-27T10:00:43.448Z",
+        "role": "Supervisor",
+        "status": "Pending",
+        "created_at": "2023-09-26T15:37:14.957Z",
+        "updated_at": "2023-09-26T18:54:00.058Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c4abf03-52d2-4eb8-a57f-8ef7ac23190e",
+        "first_name": "Admin 4",
+        "last_name": "Brown",
+        "hire_date": "2023-09-26T11:14:44.050Z",
+        "role": "Coordinator",
+        "status": "Blocked",
+        "created_at": "2023-09-26T23:32:42.924Z",
+        "updated_at": "2023-09-26T17:05:39.237Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7deb3319-66bf-4f23-9fa0-64c13c1ae173",
+        "first_name": "Admin 5",
+        "last_name": "Jones",
+        "hire_date": "2023-09-26T22:40:43.039Z",
+        "role": "Analyst",
+        "status": "Suspended",
+        "created_at": "2023-09-27T03:23:39.118Z",
+        "updated_at": "2023-09-26T14:14:29.283Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support_representative": [
+      {
+        "id": "79c18610-fef5-4fa7-a55a-23e3d2f8b783",
+        "first_name": "Support 1",
+        "last_name": "Smith",
+        "hire_date": "2023-09-27T01:32:36.756Z",
+        "department": "Customer Support",
+        "position": "Representative",
+        "created_at": "2023-09-26T22:12:47.128Z",
+        "updated_at": "2023-09-26T20:20:47.882Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43f2f956-cf4e-4e23-bde6-2f4ee108f5ff",
+        "first_name": "Support 2",
+        "last_name": "Johnson",
+        "hire_date": "2023-09-26T23:13:42.266Z",
+        "department": "Technical Support",
+        "position": "Specialist",
+        "created_at": "2023-09-26T11:33:32.683Z",
+        "updated_at": "2023-09-27T01:32:34.414Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a8c0b89-64ea-45dc-8b28-2d2b0ac82c0d",
+        "first_name": "Support 3",
+        "last_name": "Williams",
+        "hire_date": "2023-09-27T05:30:50.048Z",
+        "department": "Billing Support",
+        "position": "Agent",
+        "created_at": "2023-09-26T18:00:03.118Z",
+        "updated_at": "2023-09-26T21:37:17.044Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "045c4fc9-dad1-4de9-96bf-c58c15e0cc9a",
+        "first_name": "Support 4",
+        "last_name": "Brown",
+        "hire_date": "2023-09-26T15:49:50.875Z",
+        "department": "Sales Support",
+        "position": "Advisor",
+        "created_at": "2023-09-26T19:45:07.753Z",
+        "updated_at": "2023-09-27T04:30:53.239Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43f73d8b-35c3-4cb6-8c2b-9733f5ef2d8c",
+        "first_name": "Support 5",
+        "last_name": "Jones",
+        "hire_date": "2023-09-27T03:36:10.665Z",
+        "department": "Product Support",
+        "position": "Consultant",
+        "created_at": "2023-09-27T06:21:01.023Z",
+        "updated_at": "2023-09-27T10:04:33.717Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "d6c6a9d1-e00e-4aab-b355-ab5e232a089b",
+        "first_name": "John",
+        "last_name": "Doe",
+        "date_of_birth": "2023-09-27T10:10:18.652Z",
+        "address": "123 Main St",
+        "city": "New York",
+        "country": "United States",
+        "created_at": "2023-09-27T01:37:06.999Z",
+        "updated_at": "2023-09-26T12:22:26.604Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2029cdbd-7b3c-47fa-a6c9-a42697e11bd3",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "date_of_birth": "2023-09-27T10:21:46.947Z",
+        "address": "456 Elm St",
+        "city": "London",
+        "country": "United Kingdom",
+        "created_at": "2023-09-27T10:40:32.712Z",
+        "updated_at": "2023-09-27T07:19:41.231Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98913c5d-5f9c-4119-acec-b49ecf563b6e",
+        "first_name": "Michael",
+        "last_name": "Johnson",
+        "date_of_birth": "2023-09-26T12:07:39.791Z",
+        "address": "789 Oak St",
+        "city": "Tokyo",
+        "country": "Japan",
+        "created_at": "2023-09-27T00:05:03.739Z",
+        "updated_at": "2023-09-26T16:01:55.031Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35763322-19d0-4b43-b542-f4b46eb22f43",
+        "first_name": "Sarah",
+        "last_name": "Wilson",
+        "date_of_birth": "2023-09-26T13:46:07.521Z",
+        "address": "321 Pine St",
+        "city": "Sydney",
+        "country": "Australia",
+        "created_at": "2023-09-27T05:41:17.599Z",
+        "updated_at": "2023-09-26T17:00:47.879Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26c89431-6ee1-4450-86d8-5c9c833ae279",
+        "first_name": "Robert",
+        "last_name": "Brown",
+        "date_of_birth": "2023-09-26T12:03:00.710Z",
+        "address": "654 Maple St",
+        "city": "Berlin",
+        "country": "Germany",
+        "created_at": "2023-09-27T06:06:30.914Z",
+        "updated_at": "2023-09-27T06:25:35.519Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1884aa7f-ac0e-4247-9fdf-7828313488dc",
+        "email": "Pearl25@roq.tech",
+        "firstName": "Ward",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12757728",
+        "tenantId": null
+      },
+      {
+        "reference": "d4c4ecb4-3a2b-4822-bccb-4d6306019471",
+        "email": "Norma70@roq.tech",
+        "firstName": "Emiliano",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23296735",
+        "tenantId": null
+      },
+      {
+        "reference": "74eee343-16b3-4c19-9e33-6914422a8639",
+        "email": "Arvilla89@roq.tech",
+        "firstName": "Ebba",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1094.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f7723c15-70d7-4344-a168-b63449964024",
+        "email": "Jessica.Ferry28@roq.tech",
+        "firstName": "Tyrique",
+        "lastName": "Pacocha",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/787.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bf2ca5ed-497f-4325-889e-a9cd2b0b412f",
+        "email": "Shannon6@roq.tech",
+        "firstName": "Tomasa",
+        "lastName": "Beer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/166.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "lottery_game": [
+      {
+        "id": "f2dc29f9-b8df-4576-aec8-c44c680bf954",
+        "name": "Mega Millions",
+        "description": "Win big with Mega Millions",
+        "jackpot": 69554,
+        "draw_date": "2023-09-26T22:02:42.417Z",
+        "draw_time": "2023-09-27T01:32:45.154Z",
+        "status": "Active",
+        "created_at": "2023-09-26T18:24:07.741Z",
+        "updated_at": "2023-09-27T00:02:23.238Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "f149a040-6a25-456a-8956-cdc7cfc87dd7",
+        "name": "Powerball",
+        "description": "Play for the largest jackpots in Powerball",
+        "jackpot": 40726,
+        "draw_date": "2023-09-26T18:37:37.569Z",
+        "draw_time": "2023-09-26T20:20:36.643Z",
+        "status": "Inactive",
+        "created_at": "2023-09-27T10:37:59.760Z",
+        "updated_at": "2023-09-27T06:10:09.826Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "4959c3de-11e0-4d69-83ae-0fb3fd378d34",
+        "name": "EuroMillions",
+        "description": "Join Europe's biggest lottery with EuroMillions",
+        "jackpot": 82731,
+        "draw_date": "2023-09-26T14:57:48.110Z",
+        "draw_time": "2023-09-26T14:48:22.226Z",
+        "status": "Upcoming",
+        "created_at": "2023-09-27T07:52:06.298Z",
+        "updated_at": "2023-09-26T16:54:49.653Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "daf9e8c3-5c85-43a3-b432-fdbce47eb101",
+        "name": "Lotto 6/49",
+        "description": "Lotto 6/49 offers great odds of winning",
+        "jackpot": 85214,
+        "draw_date": "2023-09-26T17:39:17.826Z",
+        "draw_time": "2023-09-26T18:33:53.010Z",
+        "status": "Paused",
+        "created_at": "2023-09-26T14:06:25.639Z",
+        "updated_at": "2023-09-27T00:38:19.353Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "7085f130-2c57-4f06-8c10-741fdf2297e8",
+        "name": "SuperEnalotto",
+        "description": "SuperEnalotto has a record-breaking jackpot",
+        "jackpot": 88402,
+        "draw_date": "2023-09-27T04:25:27.393Z",
+        "draw_time": "2023-09-26T19:07:20.405Z",
+        "status": "Completed",
+        "created_at": "2023-09-27T00:50:00.519Z",
+        "updated_at": "2023-09-27T08:09:19.057Z",
+        "operator_id": "main_entity_pk"
+      }
+    ],
+    "game_administrator": [
+      {
+        "id": "83e9ca50-c9fb-4e60-bfe5-3f34ecd88009",
+        "first_name": "Admin",
+        "last_name": "Smith",
+        "hire_date": "2023-09-26T15:29:56.450Z",
+        "role": "Administrator",
+        "status": "Active",
+        "created_at": "2023-09-26T13:13:30.535Z",
+        "updated_at": "2023-09-26T20:27:21.320Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64a7d8c5-9292-4573-91e2-59ac06353d29",
+        "first_name": "Manager",
+        "last_name": "Johnson",
+        "hire_date": "2023-09-26T23:09:39.658Z",
+        "role": "Manager",
+        "status": "Inactive",
+        "created_at": "2023-09-26T17:26:29.220Z",
+        "updated_at": "2023-09-26T15:34:43.051Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58b23e71-9f7e-4970-a341-cf457d135536",
+        "first_name": "Supervisor",
+        "last_name": "Brown",
+        "hire_date": "2023-09-26T20:36:45.648Z",
+        "role": "Supervisor",
+        "status": "Suspended",
+        "created_at": "2023-09-27T08:29:40.598Z",
+        "updated_at": "2023-09-26T16:35:40.128Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "459fa495-1654-4296-9ea5-6340bbec879c",
+        "first_name": "Coordinator",
+        "last_name": "Davis",
+        "hire_date": "2023-09-26T14:08:30.832Z",
+        "role": "Coordinator",
+        "status": "Pending",
+        "created_at": "2023-09-27T00:05:48.075Z",
+        "updated_at": "2023-09-26T20:11:13.636Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d72d18a-4886-4557-8d18-de3b60b8ea50",
+        "first_name": "Director",
+        "last_name": "Miller",
+        "hire_date": "2023-09-27T05:04:26.234Z",
+        "role": "Director",
+        "status": "Blocked",
+        "created_at": "2023-09-26T15:32:23.679Z",
+        "updated_at": "2023-09-26T17:42:23.552Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support_representative": [
+      {
+        "id": "7edf4661-e384-4411-b09a-acdbc31979b1",
+        "first_name": "Support",
+        "last_name": "Representative",
+        "hire_date": "2023-09-27T09:17:45.243Z",
+        "department": "Support",
+        "position": "Representative",
+        "created_at": "2023-09-27T00:56:53.834Z",
+        "updated_at": "2023-09-27T01:28:18.034Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5b8945c-b301-4552-b1d0-4c11c9d7f0f1",
+        "first_name": "Helpdesk",
+        "last_name": "Agent",
+        "hire_date": "2023-09-27T04:26:49.115Z",
+        "department": "Sales",
+        "position": "Agent",
+        "created_at": "2023-09-27T05:32:17.344Z",
+        "updated_at": "2023-09-27T05:23:13.394Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8af6c253-3150-4d7f-a130-cbce79500cd5",
+        "first_name": "Assistance",
+        "last_name": "Specialist",
+        "hire_date": "2023-09-26T16:24:55.020Z",
+        "department": "Billing",
+        "position": "Specialist",
+        "created_at": "2023-09-27T04:22:31.153Z",
+        "updated_at": "2023-09-27T07:40:16.954Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "091dad1f-fb2c-4aa2-abad-a35252aa8246",
+        "first_name": "Service",
+        "last_name": "Consultant",
+        "hire_date": "2023-09-27T06:29:01.493Z",
+        "department": "Technical",
+        "position": "Consultant",
+        "created_at": "2023-09-26T15:16:01.080Z",
+        "updated_at": "2023-09-26T13:02:44.955Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf64721c-c029-4194-99f2-12ef44d517bc",
+        "first_name": "Care",
+        "last_name": "Advisor",
+        "hire_date": "2023-09-26T20:56:08.417Z",
+        "department": "Complaints",
+        "position": "Advisor",
+        "created_at": "2023-09-27T05:34:50.214Z",
+        "updated_at": "2023-09-26T11:45:48.914Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "9e21ea31-a926-4678-8c0d-bd034b06cd27",
+        "first_name": "John",
+        "last_name": "Doe",
+        "date_of_birth": "2023-09-26T23:21:22.295Z",
+        "address": "123 Main St",
+        "city": "New York",
+        "country": "United States",
+        "created_at": "2023-09-26T17:13:33.114Z",
+        "updated_at": "2023-09-27T06:42:18.749Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "864dc168-1e02-4c0d-8949-837fc39a8172",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "date_of_birth": "2023-09-27T10:12:03.421Z",
+        "address": "456 Elm St",
+        "city": "London",
+        "country": "United Kingdom",
+        "created_at": "2023-09-26T17:09:21.385Z",
+        "updated_at": "2023-09-26T20:04:50.798Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "767746c2-65ca-4ddc-bdb0-cfeb562d7918",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "date_of_birth": "2023-09-26T11:21:57.873Z",
+        "address": "789 Oak St",
+        "city": "Tokyo",
+        "country": "Japan",
+        "created_at": "2023-09-26T11:37:32.298Z",
+        "updated_at": "2023-09-27T10:39:08.247Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eae996a4-18f8-4af0-b088-addacb37afa9",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "date_of_birth": "2023-09-27T02:26:15.609Z",
+        "address": "321 Pine St",
+        "city": "Paris",
+        "country": "France",
+        "created_at": "2023-09-27T02:07:32.101Z",
+        "updated_at": "2023-09-27T03:02:00.842Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e31e7af2-e7bc-409b-861f-8656c4bf34ed",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "date_of_birth": "2023-09-26T19:57:28.908Z",
+        "address": "654 Maple St",
+        "city": "Sydney",
+        "country": "Australia",
+        "created_at": "2023-09-26T18:39:17.681Z",
+        "updated_at": "2023-09-26T13:29:28.343Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f6f37635-8a5f-4ff2-8533-933622520af6",
+        "email": "Oren.Grimes-Wintheiser34@roq.tech",
+        "firstName": "Rolando",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/699.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "51ed2eb2-e8e2-45b3-b648-9b840f8a76a2",
+        "email": "Toney.Balistreri@roq.tech",
+        "firstName": "Rosalee",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/603.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7088ba3b-470b-4355-a4fa-22e2af9b63d9",
+        "email": "Emilie.Walter@roq.tech",
+        "firstName": "Meggie",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80527521",
+        "tenantId": null
+      },
+      {
+        "reference": "49884942-44a7-40b0-9a30-bc00445e4597",
+        "email": "Gavin27@roq.tech",
+        "firstName": "Antonio",
+        "lastName": "Huels",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1124.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "11d2306d-da15-438d-bed3-f6e43b84ce79",
+        "email": "Billy_Ortiz@roq.tech",
+        "firstName": "Mafalda",
+        "lastName": "Waelchi",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1125600",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "lottery_game": [
+      {
+        "id": "fd868532-1fa0-4027-b65c-25859661f576",
+        "name": "Game 1",
+        "description": "Game 1 description",
+        "jackpot": 82353,
+        "draw_date": "2023-09-26T21:59:58.605Z",
+        "draw_time": "2023-09-27T07:57:09.798Z",
+        "status": "Active",
+        "created_at": "2023-09-27T07:56:56.113Z",
+        "updated_at": "2023-09-26T15:11:54.375Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "af9bb1b4-1728-4451-9ca9-e14ee1d09582",
+        "name": "Game 2",
+        "description": "Game 2 description",
+        "jackpot": 68682,
+        "draw_date": "2023-09-26T13:20:37.745Z",
+        "draw_time": "2023-09-27T07:05:39.829Z",
+        "status": "Inactive",
+        "created_at": "2023-09-26T10:58:51.793Z",
+        "updated_at": "2023-09-27T02:51:32.654Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "42981ec4-85b7-42b4-b5c4-d054cdfa5ade",
+        "name": "Game 3",
+        "description": "Game 3 description",
+        "jackpot": 65498,
+        "draw_date": "2023-09-27T08:48:11.399Z",
+        "draw_time": "2023-09-26T15:58:00.698Z",
+        "status": "Active",
+        "created_at": "2023-09-26T16:52:18.145Z",
+        "updated_at": "2023-09-26T15:05:34.590Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "e0c41b80-8792-4be0-81ca-29816522dd77",
+        "name": "Game 4",
+        "description": "Game 4 description",
+        "jackpot": 85888,
+        "draw_date": "2023-09-27T07:42:57.919Z",
+        "draw_time": "2023-09-27T03:44:03.916Z",
+        "status": "Inactive",
+        "created_at": "2023-09-27T05:07:01.561Z",
+        "updated_at": "2023-09-26T18:25:05.553Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "575434e3-0369-4fbc-bfd1-83b7199f3124",
+        "name": "Game 5",
+        "description": "Game 5 description",
+        "jackpot": 9922,
+        "draw_date": "2023-09-26T21:17:40.384Z",
+        "draw_time": "2023-09-26T23:07:20.268Z",
+        "status": "Active",
+        "created_at": "2023-09-27T03:58:58.360Z",
+        "updated_at": "2023-09-26T21:35:18.766Z",
+        "operator_id": "main_entity_pk"
+      }
+    ],
+    "game_administrator": [
+      {
+        "id": "fd34c944-2c6f-4f92-9b0d-2a3cd44bf2a1",
+        "first_name": "Admin 1",
+        "last_name": "Smith",
+        "hire_date": "2023-09-26T20:27:12.386Z",
+        "role": "Role 1",
+        "status": "Active",
+        "created_at": "2023-09-26T11:47:07.091Z",
+        "updated_at": "2023-09-27T10:01:28.586Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10eb6758-ffac-41cd-8d56-a0728e425656",
+        "first_name": "Admin 2",
+        "last_name": "Johnson",
+        "hire_date": "2023-09-27T00:22:35.043Z",
+        "role": "Role 2",
+        "status": "Inactive",
+        "created_at": "2023-09-27T03:45:42.424Z",
+        "updated_at": "2023-09-27T02:09:35.090Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0458cf36-1f87-4a40-ac8c-8fcc168afa55",
+        "first_name": "Admin 3",
+        "last_name": "Williams",
+        "hire_date": "2023-09-26T12:59:13.403Z",
+        "role": "Role 3",
+        "status": "Active",
+        "created_at": "2023-09-27T04:18:17.864Z",
+        "updated_at": "2023-09-27T07:35:07.631Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fa67bab-f5f0-4c5b-bbf6-d02c85550d41",
+        "first_name": "Admin 4",
+        "last_name": "Brown",
+        "hire_date": "2023-09-26T14:49:07.389Z",
+        "role": "Role 4",
+        "status": "Inactive",
+        "created_at": "2023-09-26T22:17:55.940Z",
+        "updated_at": "2023-09-26T18:22:33.725Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d46cf8e-5f83-4b64-89b0-c98cf9bd286b",
+        "first_name": "Admin 5",
+        "last_name": "Jones",
+        "hire_date": "2023-09-26T12:09:25.298Z",
+        "role": "Role 5",
+        "status": "Active",
+        "created_at": "2023-09-26T18:35:06.464Z",
+        "updated_at": "2023-09-26T22:27:24.490Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support_representative": [
+      {
+        "id": "9428cbbf-9235-4406-b6ac-8c155f16b579",
+        "first_name": "Representative 1",
+        "last_name": "Smith",
+        "hire_date": "2023-09-27T06:30:55.466Z",
+        "department": "Department 1",
+        "position": "Position 1",
+        "created_at": "2023-09-26T19:04:47.858Z",
+        "updated_at": "2023-09-26T11:23:39.559Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef857181-ffbf-404b-a560-f356774501ca",
+        "first_name": "Representative 2",
+        "last_name": "Johnson",
+        "hire_date": "2023-09-27T00:06:42.003Z",
+        "department": "Department 2",
+        "position": "Position 2",
+        "created_at": "2023-09-27T03:39:29.879Z",
+        "updated_at": "2023-09-26T19:33:22.950Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a26da807-9d63-4fa9-a6ca-aadb8395c3c0",
+        "first_name": "Representative 3",
+        "last_name": "Williams",
+        "hire_date": "2023-09-26T20:27:45.287Z",
+        "department": "Department 3",
+        "position": "Position 3",
+        "created_at": "2023-09-27T07:09:43.196Z",
+        "updated_at": "2023-09-27T03:38:22.555Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "403fdebc-3a26-4813-8645-2dcfcac99021",
+        "first_name": "Representative 4",
+        "last_name": "Brown",
+        "hire_date": "2023-09-26T15:29:16.103Z",
+        "department": "Department 4",
+        "position": "Position 4",
+        "created_at": "2023-09-27T10:44:15.644Z",
+        "updated_at": "2023-09-27T09:48:48.398Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "076f9500-e9a6-4732-bfce-0f5f2a992e24",
+        "first_name": "Representative 5",
+        "last_name": "Jones",
+        "hire_date": "2023-09-27T01:21:06.442Z",
+        "department": "Department 5",
+        "position": "Position 5",
+        "created_at": "2023-09-26T19:23:35.211Z",
+        "updated_at": "2023-09-26T22:06:50.520Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "09cf2189-ecc5-49c6-ba0a-c8ba24219b76",
+        "first_name": "John",
+        "last_name": "Doe",
+        "date_of_birth": "2023-09-26T18:15:45.928Z",
+        "address": "Address 1",
+        "city": "City 1",
+        "country": "Country 1",
+        "created_at": "2023-09-26T12:19:03.933Z",
+        "updated_at": "2023-09-26T18:08:24.504Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03ff8a28-1610-4b0d-b678-c7e50886fe0d",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "date_of_birth": "2023-09-27T02:50:58.181Z",
+        "address": "Address 2",
+        "city": "City 2",
+        "country": "Country 2",
+        "created_at": "2023-09-27T07:02:27.639Z",
+        "updated_at": "2023-09-27T01:57:30.579Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed6c9518-453e-41b0-9914-3db0493a02cf",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "date_of_birth": "2023-09-26T22:22:17.731Z",
+        "address": "Address 3",
+        "city": "City 3",
+        "country": "Country 3",
+        "created_at": "2023-09-27T09:01:52.168Z",
+        "updated_at": "2023-09-27T01:41:12.960Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf684c16-c1c1-4f4a-ab8f-3f6ef1b0d9f0",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "date_of_birth": "2023-09-27T08:43:46.503Z",
+        "address": "Address 4",
+        "city": "City 4",
+        "country": "Country 4",
+        "created_at": "2023-09-26T14:23:02.591Z",
+        "updated_at": "2023-09-27T08:02:56.634Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c8c2ec9-0909-40a3-b880-cc1ac4bd98fa",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "date_of_birth": "2023-09-26T21:08:52.035Z",
+        "address": "Address 5",
+        "city": "City 5",
+        "country": "Country 5",
+        "created_at": "2023-09-26T12:24:19.851Z",
+        "updated_at": "2023-09-27T09:53:42.519Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "255e7ca9-0d01-4e92-a315-16a9c0317d48",
+        "email": "Isidro.Bartoletti32@roq.tech",
+        "firstName": "Emelie",
+        "lastName": "Price-Lockman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25682345",
+        "tenantId": null
+      },
+      {
+        "reference": "669dfe49-038c-424a-9e2f-60922b091ce9",
+        "email": "Hilda.Block-Heller84@roq.tech",
+        "firstName": "Emerson",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10984743",
+        "tenantId": null
+      },
+      {
+        "reference": "0144216a-d2dc-49d9-8066-db8d691eb040",
+        "email": "Alice.Johnson7@roq.tech",
+        "firstName": "Nicholas",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94070334",
+        "tenantId": null
+      },
+      {
+        "reference": "7e97d9a2-b127-4d14-9261-f163e2fa44ad",
+        "email": "Willa.Pouros@roq.tech",
+        "firstName": "Scarlett",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63918705",
+        "tenantId": null
+      },
+      {
+        "reference": "e69ee1a4-73c7-4441-a933-f4d4516eda53",
+        "email": "Prudence76@roq.tech",
+        "firstName": "Annalise",
+        "lastName": "DuBuque",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1200.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "lottery_game": [
+      {
+        "id": "06d75e2f-5271-44b1-97ad-a10f3497bc78",
+        "name": "Mega Millions",
+        "description": "A popular lottery game with huge jackpots",
+        "jackpot": 59552,
+        "draw_date": "2023-09-27T00:07:43.874Z",
+        "draw_time": "2023-09-26T23:02:09.017Z",
+        "status": "Active",
+        "created_at": "2023-09-27T00:42:31.440Z",
+        "updated_at": "2023-09-26T21:07:53.100Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "5771e46b-71d0-4410-a040-dbc0de09a704",
+        "name": "Powerball",
+        "description": "Exciting game with multiple prize tiers",
+        "jackpot": 15697,
+        "draw_date": "2023-09-27T01:08:49.034Z",
+        "draw_time": "2023-09-27T01:03:34.929Z",
+        "status": "Inactive",
+        "created_at": "2023-09-27T07:44:01.340Z",
+        "updated_at": "2023-09-26T14:47:27.242Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "f71957ec-a759-43bc-9097-e544a8043693",
+        "name": "EuroMillions",
+        "description": "International lottery with massive prizes",
+        "jackpot": 99191,
+        "draw_date": "2023-09-26T13:06:47.197Z",
+        "draw_time": "2023-09-26T10:52:34.736Z",
+        "status": "Upcoming",
+        "created_at": "2023-09-26T22:01:55.094Z",
+        "updated_at": "2023-09-27T03:53:17.325Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "dfab59c3-dfea-4e14-b101-809184fd6029",
+        "name": "Lotto Max",
+        "description": "Canadian lottery game with great odds",
+        "jackpot": 3546,
+        "draw_date": "2023-09-26T16:01:50.919Z",
+        "draw_time": "2023-09-27T02:56:19.564Z",
+        "status": "Ongoing",
+        "created_at": "2023-09-26T14:08:17.009Z",
+        "updated_at": "2023-09-27T07:57:16.964Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "e1c49347-5847-47ce-b726-5d32eae20faa",
+        "name": "SuperEnalotto",
+        "description": "Italian lottery with a long history",
+        "jackpot": 40892,
+        "draw_date": "2023-09-26T13:09:22.109Z",
+        "draw_time": "2023-09-26T16:51:06.298Z",
+        "status": "Suspended",
+        "created_at": "2023-09-26T14:51:38.923Z",
+        "updated_at": "2023-09-27T06:18:05.298Z",
+        "operator_id": "main_entity_pk"
+      }
+    ],
+    "game_administrator": [
+      {
+        "id": "cc0c1b42-01da-400b-8181-720434f8dc90",
+        "first_name": "Adam",
+        "last_name": "Smith",
+        "hire_date": "2023-09-26T16:00:20.271Z",
+        "role": "Administrator",
+        "status": "Active",
+        "created_at": "2023-09-27T10:23:01.106Z",
+        "updated_at": "2023-09-26T15:49:32.667Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "275757d9-17d1-48f5-b03a-27b9bed5ddc6",
+        "first_name": "Eva",
+        "last_name": "Johnson",
+        "hire_date": "2023-09-26T14:16:22.538Z",
+        "role": "Manager",
+        "status": "Inactive",
+        "created_at": "2023-09-27T00:58:46.670Z",
+        "updated_at": "2023-09-27T06:44:16.682Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a537f48-c96c-4374-b452-3809096e76c4",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "hire_date": "2023-09-26T19:19:00.049Z",
+        "role": "Supervisor",
+        "status": "Pending",
+        "created_at": "2023-09-26T19:40:05.985Z",
+        "updated_at": "2023-09-26T21:59:03.800Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62cabab5-8ab2-4081-a4c8-7c2aa8877bb3",
+        "first_name": "Sophia",
+        "last_name": "Wilson",
+        "hire_date": "2023-09-26T21:21:08.236Z",
+        "role": "Coordinator",
+        "status": "Approved",
+        "created_at": "2023-09-26T22:34:25.587Z",
+        "updated_at": "2023-09-27T04:29:38.609Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79af00ed-ce1f-4b1e-bdff-74fecf9c1663",
+        "first_name": "Oliver",
+        "last_name": "Taylor",
+        "hire_date": "2023-09-26T18:32:15.480Z",
+        "role": "Analyst",
+        "status": "Blocked",
+        "created_at": "2023-09-27T09:38:06.643Z",
+        "updated_at": "2023-09-26T18:48:36.183Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support_representative": [
+      {
+        "id": "387ba8a7-2b85-43bf-80e2-6ad734916c0a",
+        "first_name": "Alex",
+        "last_name": "Davis",
+        "hire_date": "2023-09-27T02:36:22.971Z",
+        "department": "Technical Support",
+        "position": "Representative",
+        "created_at": "2023-09-27T04:59:49.667Z",
+        "updated_at": "2023-09-27T06:20:38.452Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c61eeff5-1aa5-40da-afb5-069a179af06c",
+        "first_name": "Emma",
+        "last_name": "Miller",
+        "hire_date": "2023-09-26T18:39:04.415Z",
+        "department": "Billing",
+        "position": "Specialist",
+        "created_at": "2023-09-26T11:06:58.832Z",
+        "updated_at": "2023-09-26T12:30:54.321Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c7a4ade-7949-40b9-a45a-65550cad6727",
+        "first_name": "James",
+        "last_name": "Wilson",
+        "hire_date": "2023-09-27T10:00:40.013Z",
+        "department": "Complaints",
+        "position": "Advisor",
+        "created_at": "2023-09-27T05:23:47.426Z",
+        "updated_at": "2023-09-26T11:00:45.745Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "229ed2a9-8821-49b7-b533-5a8ec0118cff",
+        "first_name": "Olivia",
+        "last_name": "Anderson",
+        "hire_date": "2023-09-27T10:33:57.062Z",
+        "department": "Sales",
+        "position": "Consultant",
+        "created_at": "2023-09-26T18:48:23.074Z",
+        "updated_at": "2023-09-27T01:16:21.620Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a12d5a3f-c75f-4c21-adc1-c30f3135a4e3",
+        "first_name": "Benjamin",
+        "last_name": "Thomas",
+        "hire_date": "2023-09-27T02:05:00.538Z",
+        "department": "Account Management",
+        "position": "Coordinator",
+        "created_at": "2023-09-26T18:51:18.969Z",
+        "updated_at": "2023-09-26T19:16:06.473Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "cc2204fb-08e3-4f5f-8459-9e0ed76fe2e9",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "date_of_birth": "2023-09-27T10:10:28.343Z",
+        "address": "123 Main St",
+        "city": "New York",
+        "country": "United States",
+        "created_at": "2023-09-27T00:19:06.550Z",
+        "updated_at": "2023-09-26T13:45:21.519Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b28539b-7e4c-4ed6-89af-30170f298630",
+        "first_name": "Matthew",
+        "last_name": "Brown",
+        "date_of_birth": "2023-09-26T14:53:56.363Z",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "country": "Canada",
+        "created_at": "2023-09-26T17:25:31.916Z",
+        "updated_at": "2023-09-26T22:10:23.062Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2fe0363-5ec1-4817-b129-3d6018086ba9",
+        "first_name": "Emily",
+        "last_name": "Taylor",
+        "date_of_birth": "2023-09-27T09:24:57.968Z",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "country": "United Kingdom",
+        "created_at": "2023-09-26T18:03:35.368Z",
+        "updated_at": "2023-09-26T13:17:14.295Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "236c963c-2f93-445c-a354-5802869ea809",
+        "first_name": "Daniel",
+        "last_name": "Johnson",
+        "date_of_birth": "2023-09-26T15:00:58.135Z",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "country": "Australia",
+        "created_at": "2023-09-26T21:07:02.315Z",
+        "updated_at": "2023-09-26T21:50:35.703Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "765a9230-d610-49c5-a3bb-f12226a5f52e",
+        "first_name": "Sophia",
+        "last_name": "Wilson",
+        "date_of_birth": "2023-09-27T10:02:31.134Z",
+        "address": "654 Pine St",
+        "city": "Phoenix",
+        "country": "Germany",
+        "created_at": "2023-09-26T19:07:23.101Z",
+        "updated_at": "2023-09-26T19:10:07.020Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c5de30dd-0e0f-4fc4-8294-41908043777f",
+        "email": "Issac.Herman@roq.tech",
+        "firstName": "Viviane",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/370.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0210b24a-e128-4f44-8273-806f536381d1",
+        "email": "Enos.Little@roq.tech",
+        "firstName": "Sydney",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23503737",
+        "tenantId": null
+      },
+      {
+        "reference": "b2221f5f-7349-47f7-8296-ee072f958cb4",
+        "email": "Ona.Sipes@roq.tech",
+        "firstName": "Gerson",
+        "lastName": "Gutmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87650513",
+        "tenantId": null
+      },
+      {
+        "reference": "02caaae0-4f97-424d-9e4a-d3703d8f4ee9",
+        "email": "Naomie.Ernser@roq.tech",
+        "firstName": "Augustine",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14853840",
+        "tenantId": null
+      },
+      {
+        "reference": "4817d660-ba5c-4927-82a2-c91b7bc663ad",
+        "email": "Andreanne_Bailey14@roq.tech",
+        "firstName": "Augusta",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/314.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "lottery_game": [
+      {
+        "id": "cd2e0ba6-7145-4602-86db-caa0d1ad4ea7",
+        "name": "Mega Millions",
+        "description": "Exciting lottery game with huge jackpots",
+        "jackpot": 74627,
+        "draw_date": "2023-09-26T16:31:33.106Z",
+        "draw_time": "2023-09-26T16:26:32.816Z",
+        "status": "Active",
+        "created_at": "2023-09-26T20:05:05.804Z",
+        "updated_at": "2023-09-27T01:38:56.172Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "63b6af6a-f4c4-45cd-9439-cb07db18fe0e",
+        "name": "Powerball",
+        "description": "Popular game with multiple prize tiers",
+        "jackpot": 1695,
+        "draw_date": "2023-09-26T19:15:33.876Z",
+        "draw_time": "2023-09-27T01:24:54.780Z",
+        "status": "Inactive",
+        "created_at": "2023-09-27T05:01:20.863Z",
+        "updated_at": "2023-09-26T21:03:13.054Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "e0a797e3-3013-4623-8b19-6b4c1d056c00",
+        "name": "EuroMillions",
+        "description": "International lottery with massive prizes",
+        "jackpot": 50004,
+        "draw_date": "2023-09-26T23:32:41.681Z",
+        "draw_time": "2023-09-26T12:27:12.328Z",
+        "status": "Coming Soon",
+        "created_at": "2023-09-27T04:56:35.637Z",
+        "updated_at": "2023-09-27T01:46:57.843Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "3e4a1bac-7ae0-4203-8d08-332678a5efb6",
+        "name": "Lotto Max",
+        "description": "Canadian lottery with great odds",
+        "jackpot": 3078,
+        "draw_date": "2023-09-26T14:05:32.049Z",
+        "draw_time": "2023-09-27T05:48:35.742Z",
+        "status": "Closed",
+        "created_at": "2023-09-27T09:28:42.542Z",
+        "updated_at": "2023-09-27T06:07:33.803Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "3a6b7106-b78c-45a9-87a4-a9f97f0ec5ed",
+        "name": "SuperEnalotto",
+        "description": "Italian lottery known for its record jackpots",
+        "jackpot": 11802,
+        "draw_date": "2023-09-26T23:32:17.573Z",
+        "draw_time": "2023-09-27T01:16:44.012Z",
+        "status": "Suspended",
+        "created_at": "2023-09-26T10:59:22.129Z",
+        "updated_at": "2023-09-26T22:24:29.847Z",
+        "operator_id": "main_entity_pk"
+      }
+    ],
+    "game_administrator": [
+      {
+        "id": "26121dee-1344-4b09-8a41-4e6cfca65a8c",
+        "first_name": "Admin",
+        "last_name": "Smith",
+        "hire_date": "2023-09-27T00:15:20.960Z",
+        "role": "Administrator",
+        "status": "Active",
+        "created_at": "2023-09-26T13:48:35.202Z",
+        "updated_at": "2023-09-27T02:01:44.512Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e75d8182-1739-4c8e-b3ef-5cbc8d8383a2",
+        "first_name": "Manager",
+        "last_name": "Johnson",
+        "hire_date": "2023-09-26T12:32:29.112Z",
+        "role": "Manager",
+        "status": "Inactive",
+        "created_at": "2023-09-27T08:42:19.819Z",
+        "updated_at": "2023-09-26T13:06:35.974Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecd62592-f1e6-4348-b95e-2538fccb9d2f",
+        "first_name": "Supervisor",
+        "last_name": "Williams",
+        "hire_date": "2023-09-26T16:46:26.402Z",
+        "role": "Supervisor",
+        "status": "Pending",
+        "created_at": "2023-09-27T08:19:10.011Z",
+        "updated_at": "2023-09-26T15:42:56.024Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f814bfe9-4e0f-49f6-a87a-782909f9f689",
+        "first_name": "Coordinator",
+        "last_name": "Jones",
+        "hire_date": "2023-09-27T02:28:36.850Z",
+        "role": "Coordinator",
+        "status": "Suspended",
+        "created_at": "2023-09-26T10:52:26.898Z",
+        "updated_at": "2023-09-27T05:27:53.290Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa4de8f6-ba3b-46ea-9f88-b240bbff8456",
+        "first_name": "Director",
+        "last_name": "Brown",
+        "hire_date": "2023-09-27T06:58:59.532Z",
+        "role": "Director",
+        "status": "Blocked",
+        "created_at": "2023-09-27T00:56:20.447Z",
+        "updated_at": "2023-09-27T03:41:54.991Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support_representative": [
+      {
+        "id": "0c78e6d6-70de-4982-9435-94a2a27a3e2b",
+        "first_name": "Support",
+        "last_name": "Agent",
+        "hire_date": "2023-09-26T17:54:33.441Z",
+        "department": "Customer Support",
+        "position": "Level 1",
+        "created_at": "2023-09-27T10:28:48.582Z",
+        "updated_at": "2023-09-26T21:02:04.349Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9976241-4cff-43f5-87b2-dcfa3887228c",
+        "first_name": "Help",
+        "last_name": "Representative",
+        "hire_date": "2023-09-27T05:06:51.571Z",
+        "department": "Technical Support",
+        "position": "Level 2",
+        "created_at": "2023-09-26T11:00:49.559Z",
+        "updated_at": "2023-09-26T13:00:00.991Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcfa9f28-fe32-404b-b268-05e5176135de",
+        "first_name": "Assist",
+        "last_name": "Specialist",
+        "hire_date": "2023-09-26T16:35:14.820Z",
+        "department": "Billing Support",
+        "position": "Level 3",
+        "created_at": "2023-09-27T07:10:33.304Z",
+        "updated_at": "2023-09-27T05:15:54.538Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af358a1f-11f8-4298-946e-69077e7df574",
+        "first_name": "Guide",
+        "last_name": "Advisor",
+        "hire_date": "2023-09-26T23:53:57.018Z",
+        "department": "Sales Support",
+        "position": "Senior",
+        "created_at": "2023-09-26T11:11:11.531Z",
+        "updated_at": "2023-09-26T21:39:40.598Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9730f556-0091-48e8-a789-176eeb414f56",
+        "first_name": "Resolve",
+        "last_name": "Consultant",
+        "hire_date": "2023-09-27T02:41:56.003Z",
+        "department": "Product Support",
+        "position": "Supervisor",
+        "created_at": "2023-09-26T22:55:45.555Z",
+        "updated_at": "2023-09-26T17:38:05.577Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "4ffd8955-852a-4d3d-8a6a-4c1f57d06f2c",
+        "first_name": "John",
+        "last_name": "Doe",
+        "date_of_birth": "2023-09-26T23:41:00.186Z",
+        "address": "123 Main St",
+        "city": "New York",
+        "country": "United States",
+        "created_at": "2023-09-26T15:28:26.344Z",
+        "updated_at": "2023-09-26T18:58:15.469Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eeb46e5d-d1bc-4ea8-b7e8-4790020fe1c3",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "date_of_birth": "2023-09-27T02:50:28.017Z",
+        "address": "456 Elm St",
+        "city": "London",
+        "country": "United Kingdom",
+        "created_at": "2023-09-27T07:13:22.937Z",
+        "updated_at": "2023-09-26T15:22:05.766Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a132ea3-b819-4b1f-8ba8-e6d727670e4b",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "date_of_birth": "2023-09-27T08:26:42.318Z",
+        "address": "789 Oak St",
+        "city": "Tokyo",
+        "country": "Japan",
+        "created_at": "2023-09-26T11:31:01.743Z",
+        "updated_at": "2023-09-26T16:51:43.509Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80adc8d7-691a-431b-a0e5-36449aa1cc11",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "date_of_birth": "2023-09-26T22:37:45.064Z",
+        "address": "321 Pine St",
+        "city": "Sydney",
+        "country": "Australia",
+        "created_at": "2023-09-26T14:50:32.664Z",
+        "updated_at": "2023-09-26T11:51:48.829Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb9c0266-fb9b-470e-8372-b062611909df",
+        "first_name": "Robert",
+        "last_name": "Wilson",
+        "date_of_birth": "2023-09-26T11:19:03.248Z",
+        "address": "654 Maple St",
+        "city": "Berlin",
+        "country": "Germany",
+        "created_at": "2023-09-27T01:47:55.739Z",
+        "updated_at": "2023-09-26T21:21:54.245Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "aa80606f-db57-4676-afc2-60dc684a3fcc",
+        "email": "Macie.Donnelly93@roq.tech",
+        "firstName": "Tavares",
+        "lastName": "Williamson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/135.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e57b72c0-8310-4b84-80a8-18cd1fd1a537",
+        "email": "Nicholaus_Langworth@roq.tech",
+        "firstName": "Melba",
+        "lastName": "Stokes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7697787",
+        "tenantId": null
+      },
+      {
+        "reference": "8c0af839-8700-4731-9a36-d141c0962299",
+        "email": "Frida_McKenzie53@roq.tech",
+        "firstName": "Myrna",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/765.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a31e4d5e-784d-46bb-9cf5-132c0379f263",
+        "email": "Deborah_Pacocha@roq.tech",
+        "firstName": "Cecelia",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/797.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c8fe6dd5-bc19-4234-8b62-37735153f94f",
+        "email": "Olga.Cormier@roq.tech",
+        "firstName": "Elna",
+        "lastName": "Mraz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7785864",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "lottery_game": [
+      {
+        "id": "fc80adec-cb43-44ad-9d8c-4eeac4c2c12b",
+        "name": "Game 1",
+        "description": "Game 1 description",
+        "jackpot": 70054,
+        "draw_date": "2023-09-26T20:06:23.789Z",
+        "draw_time": "2023-09-27T05:37:36.141Z",
+        "status": "Active",
+        "created_at": "2023-09-26T22:27:47.539Z",
+        "updated_at": "2023-09-27T03:51:03.656Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "14cddd77-716f-4941-9f65-863f678d9bc2",
+        "name": "Game 2",
+        "description": "Game 2 description",
+        "jackpot": 40265,
+        "draw_date": "2023-09-26T15:56:49.072Z",
+        "draw_time": "2023-09-26T12:32:04.353Z",
+        "status": "Inactive",
+        "created_at": "2023-09-26T12:58:17.007Z",
+        "updated_at": "2023-09-26T21:21:21.070Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "02321e46-f843-4726-aec7-1abfa9541276",
+        "name": "Game 3",
+        "description": "Game 3 description",
+        "jackpot": 59726,
+        "draw_date": "2023-09-27T00:48:13.093Z",
+        "draw_time": "2023-09-26T21:57:39.109Z",
+        "status": "Active",
+        "created_at": "2023-09-26T23:47:00.408Z",
+        "updated_at": "2023-09-26T21:00:30.339Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "467c6e1f-c888-491d-9b3c-39bcf431fb6e",
+        "name": "Game 4",
+        "description": "Game 4 description",
+        "jackpot": 51109,
+        "draw_date": "2023-09-26T19:39:26.486Z",
+        "draw_time": "2023-09-26T23:32:34.051Z",
+        "status": "Inactive",
+        "created_at": "2023-09-27T02:18:27.505Z",
+        "updated_at": "2023-09-26T21:43:57.106Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "b26f682c-e13d-4841-8b3c-873a1a22ee78",
+        "name": "Game 5",
+        "description": "Game 5 description",
+        "jackpot": 89383,
+        "draw_date": "2023-09-27T00:24:18.380Z",
+        "draw_time": "2023-09-26T15:57:04.452Z",
+        "status": "Active",
+        "created_at": "2023-09-27T00:05:04.797Z",
+        "updated_at": "2023-09-26T17:27:09.179Z",
+        "operator_id": "main_entity_pk"
+      }
+    ],
+    "game_administrator": [
+      {
+        "id": "655bf231-3df7-4149-8d0f-afa1e178b692",
+        "first_name": "Admin 1",
+        "last_name": "Last 1",
+        "hire_date": "2023-09-27T01:08:26.101Z",
+        "role": "Role 1",
+        "status": "Active",
+        "created_at": "2023-09-26T14:28:26.091Z",
+        "updated_at": "2023-09-26T21:44:44.044Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c77670f8-77b4-46f7-9cf9-66a234596502",
+        "first_name": "Admin 2",
+        "last_name": "Last 2",
+        "hire_date": "2023-09-26T11:43:34.671Z",
+        "role": "Role 2",
+        "status": "Inactive",
+        "created_at": "2023-09-26T17:26:27.032Z",
+        "updated_at": "2023-09-27T01:58:01.515Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf515683-649b-4dcc-b7aa-8182c49dadc9",
+        "first_name": "Admin 3",
+        "last_name": "Last 3",
+        "hire_date": "2023-09-27T00:14:05.560Z",
+        "role": "Role 3",
+        "status": "Active",
+        "created_at": "2023-09-27T08:41:46.349Z",
+        "updated_at": "2023-09-26T14:18:12.232Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "369fe2a2-f6d6-4edb-bd9e-747a8c7ddb25",
+        "first_name": "Admin 4",
+        "last_name": "Last 4",
+        "hire_date": "2023-09-27T06:06:22.077Z",
+        "role": "Role 4",
+        "status": "Inactive",
+        "created_at": "2023-09-26T15:38:12.176Z",
+        "updated_at": "2023-09-27T00:44:33.476Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b1dc426-5981-4c47-926f-9b0cfc3c5e4d",
+        "first_name": "Admin 5",
+        "last_name": "Last 5",
+        "hire_date": "2023-09-26T12:32:40.098Z",
+        "role": "Role 5",
+        "status": "Active",
+        "created_at": "2023-09-26T11:51:31.279Z",
+        "updated_at": "2023-09-26T12:40:38.546Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support_representative": [
+      {
+        "id": "857ad828-d9d9-45d5-abff-64d6f8ca33a3",
+        "first_name": "Representative 1",
+        "last_name": "Last 1",
+        "hire_date": "2023-09-27T05:57:04.856Z",
+        "department": "Department 1",
+        "position": "Position 1",
+        "created_at": "2023-09-26T18:38:14.497Z",
+        "updated_at": "2023-09-26T13:01:55.118Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2623dd62-ae82-49bb-b581-9661ec335a6f",
+        "first_name": "Representative 2",
+        "last_name": "Last 2",
+        "hire_date": "2023-09-27T09:15:08.919Z",
+        "department": "Department 2",
+        "position": "Position 2",
+        "created_at": "2023-09-27T08:31:28.598Z",
+        "updated_at": "2023-09-26T11:25:59.379Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6d7f913-2661-4876-be38-70b7acbbf494",
+        "first_name": "Representative 3",
+        "last_name": "Last 3",
+        "hire_date": "2023-09-27T01:35:35.024Z",
+        "department": "Department 3",
+        "position": "Position 3",
+        "created_at": "2023-09-26T14:49:14.754Z",
+        "updated_at": "2023-09-27T09:10:16.225Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5427dd9-678d-400a-a9e1-9aeb974816c4",
+        "first_name": "Representative 4",
+        "last_name": "Last 4",
+        "hire_date": "2023-09-26T16:26:12.539Z",
+        "department": "Department 4",
+        "position": "Position 4",
+        "created_at": "2023-09-26T15:34:28.586Z",
+        "updated_at": "2023-09-26T17:04:47.651Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8db22a5f-1f5f-4f7c-bc7c-41fa29490b84",
+        "first_name": "Representative 5",
+        "last_name": "Last 5",
+        "hire_date": "2023-09-26T15:05:28.602Z",
+        "department": "Department 5",
+        "position": "Position 5",
+        "created_at": "2023-09-27T09:06:43.666Z",
+        "updated_at": "2023-09-27T08:02:58.360Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "a537e944-7a65-41ab-ae27-0baf07f2842a",
+        "first_name": "Customer 1",
+        "last_name": "Last 1",
+        "date_of_birth": "2023-09-26T19:07:44.141Z",
+        "address": "Address 1",
+        "city": "City 1",
+        "country": "Country 1",
+        "created_at": "2023-09-27T02:10:06.432Z",
+        "updated_at": "2023-09-26T22:14:39.154Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee3c9be5-38ee-4357-a475-e2541e20c0fa",
+        "first_name": "Customer 2",
+        "last_name": "Last 2",
+        "date_of_birth": "2023-09-27T03:26:32.844Z",
+        "address": "Address 2",
+        "city": "City 2",
+        "country": "Country 2",
+        "created_at": "2023-09-26T22:11:49.823Z",
+        "updated_at": "2023-09-26T14:03:38.272Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46b40c2b-c3bf-43c9-92f9-e46799f3776f",
+        "first_name": "Customer 3",
+        "last_name": "Last 3",
+        "date_of_birth": "2023-09-26T16:47:55.979Z",
+        "address": "Address 3",
+        "city": "City 3",
+        "country": "Country 3",
+        "created_at": "2023-09-27T06:10:23.478Z",
+        "updated_at": "2023-09-26T16:40:46.102Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6fab6e0-e7ba-4905-9997-0298be1b158c",
+        "first_name": "Customer 4",
+        "last_name": "Last 4",
+        "date_of_birth": "2023-09-27T00:50:09.971Z",
+        "address": "Address 4",
+        "city": "City 4",
+        "country": "Country 4",
+        "created_at": "2023-09-26T13:45:57.589Z",
+        "updated_at": "2023-09-27T09:21:19.950Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16b92d5a-ed52-4d08-930d-05056b7de76d",
+        "first_name": "Customer 5",
+        "last_name": "Last 5",
+        "date_of_birth": "2023-09-26T14:40:05.314Z",
+        "address": "Address 5",
+        "city": "City 5",
+        "country": "Country 5",
+        "created_at": "2023-09-27T07:24:23.268Z",
+        "updated_at": "2023-09-27T02:06:40.659Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "78d13cdc-963a-4ede-af74-a0d31ca137d2",
+        "email": "Aisha_Lind4@roq.tech",
+        "firstName": "Veda",
+        "lastName": "White",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63927317",
+        "tenantId": null
+      },
+      {
+        "reference": "40150160-85b2-4e85-92f9-5dd26bddeefe",
+        "email": "Trey.Hansen42@roq.tech",
+        "firstName": "Newell",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/234.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "62825bcc-1f93-465d-b052-477d7d37c947",
+        "email": "Tanya_Walter@roq.tech",
+        "firstName": "Kirsten",
+        "lastName": "Gislason-Batz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92053028",
+        "tenantId": null
+      },
+      {
+        "reference": "5c377b6b-d83f-42f4-9e00-ffb4008f273c",
+        "email": "Tatyana85@roq.tech",
+        "firstName": "Alfredo",
+        "lastName": "Erdman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/330.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e4e103af-41e7-4d9f-98e5-c10c1ff57b38",
+        "email": "Verlie.Ziemann@roq.tech",
+        "firstName": "Brisa",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47529418",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "lottery_game": [
+      {
+        "id": "133dbd74-196f-4fde-8341-b4a7d653f3ec",
+        "name": "Game 1",
+        "description": "Game 1 description",
+        "jackpot": 57083,
+        "draw_date": "2023-09-26T11:10:39.902Z",
+        "draw_time": "2023-09-26T12:51:41.282Z",
+        "status": "Active",
+        "created_at": "2023-09-27T06:06:12.116Z",
+        "updated_at": "2023-09-27T00:58:25.873Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "340fc927-d3eb-4ab2-b347-b249886abb11",
+        "name": "Game 2",
+        "description": "Game 2 description",
+        "jackpot": 24455,
+        "draw_date": "2023-09-27T04:11:53.688Z",
+        "draw_time": "2023-09-27T05:54:32.245Z",
+        "status": "Inactive",
+        "created_at": "2023-09-27T01:15:44.432Z",
+        "updated_at": "2023-09-26T13:24:12.084Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "7355b3a9-6cdc-44ce-9ba1-8614c35a2b4d",
+        "name": "Game 3",
+        "description": "Game 3 description",
+        "jackpot": 99363,
+        "draw_date": "2023-09-26T21:05:01.379Z",
+        "draw_time": "2023-09-26T19:13:41.115Z",
+        "status": "Active",
+        "created_at": "2023-09-26T20:51:30.602Z",
+        "updated_at": "2023-09-26T22:40:52.366Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "4ff510fd-b478-4220-89a6-c61248168d54",
+        "name": "Game 4",
+        "description": "Game 4 description",
+        "jackpot": 27138,
+        "draw_date": "2023-09-26T14:34:19.324Z",
+        "draw_time": "2023-09-26T13:40:38.921Z",
+        "status": "Inactive",
+        "created_at": "2023-09-26T12:05:52.748Z",
+        "updated_at": "2023-09-26T11:17:13.658Z",
+        "operator_id": "main_entity_pk"
+      },
+      {
+        "id": "85b4bc8e-6217-4e8c-9132-bb5fa320fdd1",
+        "name": "Game 5",
+        "description": "Game 5 description",
+        "jackpot": 77585,
+        "draw_date": "2023-09-27T08:22:44.840Z",
+        "draw_time": "2023-09-26T10:50:05.343Z",
+        "status": "Active",
+        "created_at": "2023-09-26T12:20:35.652Z",
+        "updated_at": "2023-09-27T06:31:44.463Z",
+        "operator_id": "main_entity_pk"
+      }
+    ],
+    "game_administrator": [
+      {
+        "id": "5f19adcd-a5c1-43e9-b338-01a1c0242b0e",
+        "first_name": "Admin 1",
+        "last_name": "Smith",
+        "hire_date": "2023-09-26T16:44:44.452Z",
+        "role": "Role 1",
+        "status": "Active",
+        "created_at": "2023-09-27T05:38:06.014Z",
+        "updated_at": "2023-09-26T13:19:37.722Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d586ae8-712a-4850-bdef-3b21ecc59a88",
+        "first_name": "Admin 2",
+        "last_name": "Johnson",
+        "hire_date": "2023-09-26T23:24:10.275Z",
+        "role": "Role 2",
+        "status": "Inactive",
+        "created_at": "2023-09-26T14:35:13.076Z",
+        "updated_at": "2023-09-27T04:20:14.237Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d64a4389-a9ab-4546-b087-22e4f73c4ea5",
+        "first_name": "Admin 3",
+        "last_name": "Williams",
+        "hire_date": "2023-09-26T18:12:26.374Z",
+        "role": "Role 3",
+        "status": "Active",
+        "created_at": "2023-09-27T09:26:48.477Z",
+        "updated_at": "2023-09-26T11:21:20.209Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04de9da7-a408-423c-92bd-8a836f99245f",
+        "first_name": "Admin 4",
+        "last_name": "Brown",
+        "hire_date": "2023-09-26T11:25:28.546Z",
+        "role": "Role 4",
+        "status": "Inactive",
+        "created_at": "2023-09-26T13:10:50.777Z",
+        "updated_at": "2023-09-26T14:48:14.873Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fef7abff-de3c-4789-bc54-185ac4d45d49",
+        "first_name": "Admin 5",
+        "last_name": "Jones",
+        "hire_date": "2023-09-26T15:49:00.841Z",
+        "role": "Role 5",
+        "status": "Active",
+        "created_at": "2023-09-26T23:27:08.275Z",
+        "updated_at": "2023-09-26T13:47:43.970Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support_representative": [
+      {
+        "id": "e33140de-a4e2-49a3-a128-cd6797ee881a",
+        "first_name": "Representative 1",
+        "last_name": "Smith",
+        "hire_date": "2023-09-26T19:40:19.098Z",
+        "department": "Department 1",
+        "position": "Position 1",
+        "created_at": "2023-09-27T01:03:12.479Z",
+        "updated_at": "2023-09-27T00:39:50.839Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "282f6762-eaa9-46c6-ad8f-8dc84fdd54e7",
+        "first_name": "Representative 2",
+        "last_name": "Johnson",
+        "hire_date": "2023-09-26T21:05:14.204Z",
+        "department": "Department 2",
+        "position": "Position 2",
+        "created_at": "2023-09-26T22:43:55.222Z",
+        "updated_at": "2023-09-27T09:47:31.763Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eeb05895-cff0-4d28-b2eb-b28eecdc5f5f",
+        "first_name": "Representative 3",
+        "last_name": "Williams",
+        "hire_date": "2023-09-27T06:13:14.549Z",
+        "department": "Department 3",
+        "position": "Position 3",
+        "created_at": "2023-09-27T08:59:57.546Z",
+        "updated_at": "2023-09-27T09:43:30.051Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc8b5812-4476-44ed-a2fb-f217322b5f98",
+        "first_name": "Representative 4",
+        "last_name": "Brown",
+        "hire_date": "2023-09-27T05:43:36.740Z",
+        "department": "Department 4",
+        "position": "Position 4",
+        "created_at": "2023-09-27T08:00:24.750Z",
+        "updated_at": "2023-09-26T18:34:05.994Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "240682ba-73f7-4a3b-9b21-81618d608abb",
+        "first_name": "Representative 5",
+        "last_name": "Jones",
+        "hire_date": "2023-09-26T20:42:11.514Z",
+        "department": "Department 5",
+        "position": "Position 5",
+        "created_at": "2023-09-27T06:19:18.382Z",
+        "updated_at": "2023-09-27T05:04:12.808Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "fb30ce55-9574-44ef-a9cb-ac133499bde7",
+        "first_name": "John",
+        "last_name": "Doe",
+        "date_of_birth": "2023-09-27T03:27:37.562Z",
+        "address": "Address 1",
+        "city": "City 1",
+        "country": "Country 1",
+        "created_at": "2023-09-27T02:29:24.861Z",
+        "updated_at": "2023-09-26T22:46:01.358Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6282715-d581-43f0-b529-6e4f7ecbcc68",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "date_of_birth": "2023-09-26T22:30:04.083Z",
+        "address": "Address 2",
+        "city": "City 2",
+        "country": "Country 2",
+        "created_at": "2023-09-27T03:37:05.965Z",
+        "updated_at": "2023-09-26T14:02:10.514Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a80e4e41-20fe-4543-81b5-29ea598f1001",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "date_of_birth": "2023-09-27T02:29:27.379Z",
+        "address": "Address 3",
+        "city": "City 3",
+        "country": "Country 3",
+        "created_at": "2023-09-26T18:33:59.820Z",
+        "updated_at": "2023-09-26T16:03:13.132Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6488db8e-5ac5-4597-afac-b05e589b760b",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "date_of_birth": "2023-09-26T15:26:22.585Z",
+        "address": "Address 4",
+        "city": "City 4",
+        "country": "Country 4",
+        "created_at": "2023-09-26T11:50:10.695Z",
+        "updated_at": "2023-09-27T04:28:13.144Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1e40ac3-fcde-4ab3-a23b-3f5b9c02921f",
+        "first_name": "Robert",
+        "last_name": "Wilson",
+        "date_of_birth": "2023-09-27T01:20:39.082Z",
+        "address": "Address 5",
+        "city": "City 5",
+        "country": "Country 5",
+        "created_at": "2023-09-27T02:08:36.266Z",
+        "updated_at": "2023-09-27T03:40:23.670Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7d04e17a-657f-4419-b336-a211fbacfafc",
+        "email": "Maureen1@roq.tech",
+        "firstName": "Meta",
+        "lastName": "Schroeder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90852205",
+        "tenantId": null
+      },
+      {
+        "reference": "dd618986-8ab7-46ea-83f6-42fe831c3064",
+        "email": "Elliot90@roq.tech",
+        "firstName": "Arturo",
+        "lastName": "Toy-Wiza",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96072500",
+        "tenantId": null
+      },
+      {
+        "reference": "0a1a6542-b518-49d6-a0ba-789f898e66ff",
+        "email": "Orland_Corwin96@roq.tech",
+        "firstName": "Evelyn",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/817.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "da48d975-e216-492e-b6eb-72c0a1d612b1",
+        "email": "Delta30@roq.tech",
+        "firstName": "Angelita",
+        "lastName": "Morissette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1191.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "41a99731-2230-4f1f-aeeb-7b7904144b26",
+        "email": "Aliya_Nikolaus6@roq.tech",
+        "firstName": "Aida",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/715.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
